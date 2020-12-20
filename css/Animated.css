@@ -99,3 +99,35 @@ button.active {
   font-weight: bold;
   transition: all 0.75s ease-out;
 }
+
+@media (max-width: 700px) {
+  .circle {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .logo img {
+    width: 6rem;
+  }
+
+  .card {
+    min-width: 50vh;
+    padding: 1rem;
+  }
+
+  .info h1 {
+    font-size: 1.3rem;
+  }
+
+  .info h3 {
+    font-size: 0.7rem;
+  }
+
+  .sizes {
+    margin-top: 1rem;
+  }
+
+  .sizes button {
+    padding: 0.2rem 1rem;
+  }
+}
